@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos base para garantir funcionamento */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Estilos para o WaveSurfer */
+.waveform-container {
+  @apply w-full;
+}
+
+.waveform-controls {
+  @apply flex items-center gap-4 mb-6 p-4 bg-gray-800 rounded-lg;
+}
+
+.play-button,
+.stop-button {
+  @apply px-4 py-2 rounded-lg font-medium transition-colors;
+}
+
+.play-button {
+  @apply bg-green-600 text-white hover:bg-green-700 disabled:bg-gray-600 disabled:cursor-not-allowed;
+}
+
+.stop-button {
+  @apply bg-red-600 text-white hover:bg-red-700 disabled:bg-gray-600 disabled:cursor-not-allowed;
+}
+
+.time-display {
+  @apply text-sm font-mono text-gray-300 bg-gray-700 px-3 py-1 rounded;
+}
+
+.waveform {
+  width: 100%;
+  height: 120px;
+  background: #1a1a1a;
+  border-radius: 8px;
+  margin: 10px 0;
+  position: relative;
+}
+
+/* Estilos para o cursor e progresso do WaveSurfer */
+.wavesurfer-container {
+  @apply relative;
+}
+
+.wavesurfer-container canvas {
+  @apply rounded;
+}
+
+/* Estilos para loading e erro do Waveform */
+.waveform-loading {
+  @apply flex flex-col items-center justify-center p-8 bg-gray-800 rounded-lg;
+}
+
+.loading-spinner {
+  @apply text-2xl animate-spin mb-2;
+}
+
+.waveform-error {
+  @apply p-4 bg-red-900/30 border border-red-500/50 rounded-lg text-red-200;
+}
+
+.threshold-info {
+  @apply ml-auto px-2 py-1 bg-red-500/10 rounded border border-red-500/30;
+}
+
+.threshold-label {
+  @apply text-xs text-red-400 font-medium;
+}
+
+.threshold-legend {
+  @apply flex gap-4 mt-3 p-2 bg-gray-800/50 rounded border border-gray-600/30;
+}
+
+.legend-item {
+  @apply flex items-center gap-2 text-xs text-gray-300;
+}
+
+.legend-color {
+  @apply w-3 h-3 rounded border border-white/20;
+}

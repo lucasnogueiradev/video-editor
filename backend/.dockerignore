@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+temp_files/
+*.mkv
+*.mp4
+*.wav
+output_*.mkv 

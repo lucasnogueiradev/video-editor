@@ -1,0 +1,221 @@
+# Dependências Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Ambientes virtuais
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Arquivos temporários do projeto
+backend/temp_files/
+backend/output_*.mkv
+backend/output_*.mp4
+backend/temp_*.mkv
+backend/temp_*.mp4
+backend/audio_analysis_*.mkv
+backend/audio_analysis_*.mp4
+
+# Node.js (Frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Build do frontend
+video-cutter/video-cutter/dist/
+video-cutter/video-cutter/build/
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Docker
+.dockerignore
+
+# Arquivos de backup
+*.bak
+*.backup
+*.tmp
+
+# Arquivos de mídia grandes (opcional - descomente se quiser ignorar)
+# *.mkv
+# *.mp4
+# *.avi
+# *.mov
+# *.wmv
+# *.flv
+# *.webm
+# *.m4v
+# *.3gp
+# *.mp3
+# *.wav
+# *.flac
+# *.aac
+# *.ogg
+
+# Arquivos de configuração local
+config.local.py
+settings.local.py
+
+# Arquivos de cache
+.cache/
+.parcel-cache/
+
+# Arquivos de coverage
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Arquivos de Jupyter Notebook
+.ipynb_checkpoints
+
+# Arquivos de mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Arquivos de pytype
+.pytype/
+
+# Arquivos de Cython
+*.c
+*.cpp
+*.h
+*.hpp
+*.so
+*.dylib
+*.dll
+
+# Arquivos de Rope
+.ropeproject/
+
+# Arquivos de mkdocs
+/site
+
+# Arquivos de mkdocs
+/site
+
+# Arquivos de pycharm
+.idea/
+
+# Arquivos de vscode
+.vscode/
+
+# Arquivos de sublime
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de vim
+*.swp
+*.swo
+*~
+
+# Arquivos de emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Arquivos de macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Arquivos de Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.tmp
+*.temp
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Arquivos de Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Arquivos específicos do projeto
+# Ignorar arquivos de vídeo processados (opcional)
+# processed_videos/
+# output_videos/
+
+# Ignorar arquivos de áudio extraídos (opcional)
+# extracted_audio/
+
+# Ignorar arquivos de configuração local
+local_config.py
+secrets.py 
